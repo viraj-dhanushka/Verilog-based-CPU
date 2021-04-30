@@ -1,2 +1,8 @@
-# Building-a-Simple-Processor
-A simple 8-bit single-cycle processor which includes an ALU, a register file and control logic etc using Verilog HDL
+1. Compile (make sure filles.txt is in the directory)
+      iverilog -o my_design.vvp -c filles.txt
+
+2. Run
+     vvp my_design.vvp
+
+3. Open with gtkwave tool
+      gtkwave cpu_wavedata.vcd
